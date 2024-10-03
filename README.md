@@ -58,6 +58,13 @@ $ ./setup-docker.sh
 
 ##### Docker Compose
 ```
+$ curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /home/ec2-user/.local/bin/docker-compose
+chmod +x /home/ec2-user/.local/bin/docker-compose
+docker-compose version
+```
+
+##### Docker Compose
+```
 $ docker-compose up
 ```
 
